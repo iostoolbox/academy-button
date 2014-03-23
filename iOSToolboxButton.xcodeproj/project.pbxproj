@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D242FACD18DEDDE3000DB48E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D242FACC18DEDDE3000DB48E /* Foundation.framework */; };
+		D242FACF18DEDDE3000DB48E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D242FACE18DEDDE3000DB48E /* CoreGraphics.framework */; };
+		D242FAD118DEDDE3000DB48E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D242FAD018DEDDE3000DB48E /* UIKit.framework */; };
+		D242FAD718DEDDE3000DB48E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D242FAD518DEDDE3000DB48E /* InfoPlist.strings */; };
+		D242FAD918DEDDE3000DB48E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D242FAD818DEDDE3000DB48E /* main.m */; };
+		D242FADD18DEDDE3000DB48E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D242FADC18DEDDE3000DB48E /* AppDelegate.m */; };
+		D242FAE018DEDDE3000DB48E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D242FADE18DEDDE3000DB48E /* Main.storyboard */; };
+		D242FAE318DEDDE3000DB48E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D242FAE218DEDDE3000DB48E /* ViewController.m */; };
+		D242FAE518DEDDE3000DB48E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D242FAE418DEDDE3000DB48E /* Images.xcassets */; };
+		D242FAEC18DEDDE3000DB48E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D242FAEB18DEDDE3000DB48E /* XCTest.framework */; };
+		D242FAED18DEDDE3000DB48E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D242FACC18DEDDE3000DB48E /* Foundation.framework */; };
+		D242FAEE18DEDDE3000DB48E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D242FAD018DEDDE3000DB48E /* UIKit.framework */; };
+		D242FAF618DEDDE3000DB48E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D242FAF418DEDDE3000DB48E /* InfoPlist.strings */; };
+		D242FAF818DEDDE3000DB48E /* iOSToolboxButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D242FAF718DEDDE3000DB48E /* iOSToolboxButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D242FAEF18DEDDE3000DB48E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D242FAC118DEDDE2000DB48E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D242FAC818DEDDE2000DB48E;
+			remoteInfo = iOSToolboxButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D242FAC918DEDDE2000DB48E /* iOSToolboxButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSToolboxButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D242FACC18DEDDE3000DB48E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D242FACE18DEDDE3000DB48E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D242FAD018DEDDE3000DB48E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D242FAD418DEDDE3000DB48E /* iOSToolboxButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSToolboxButton-Info.plist"; sourceTree = "<group>"; };
+		D242FAD618DEDDE3000DB48E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D242FAD818DEDDE3000DB48E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D242FADA18DEDDE3000DB48E /* iOSToolboxButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSToolboxButton-Prefix.pch"; sourceTree = "<group>"; };
+		D242FADB18DEDDE3000DB48E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D242FADC18DEDDE3000DB48E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D242FADF18DEDDE3000DB48E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D242FAE118DEDDE3000DB48E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D242FAE218DEDDE3000DB48E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D242FAE418DEDDE3000DB48E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D242FAEA18DEDDE3000DB48E /* iOSToolboxButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSToolboxButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D242FAEB18DEDDE3000DB48E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D242FAF318DEDDE3000DB48E /* iOSToolboxButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSToolboxButtonTests-Info.plist"; sourceTree = "<group>"; };
+		D242FAF518DEDDE3000DB48E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D242FAF718DEDDE3000DB48E /* iOSToolboxButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSToolboxButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D242FAC618DEDDE2000DB48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242FACF18DEDDE3000DB48E /* CoreGraphics.framework in Frameworks */,
+				D242FAD118DEDDE3000DB48E /* UIKit.framework in Frameworks */,
+				D242FACD18DEDDE3000DB48E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242FAE718DEDDE3000DB48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242FAEC18DEDDE3000DB48E /* XCTest.framework in Frameworks */,
+				D242FAEE18DEDDE3000DB48E /* UIKit.framework in Frameworks */,
+				D242FAED18DEDDE3000DB48E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D242FAC018DEDDE2000DB48E = {
+			isa = PBXGroup;
+			children = (
+				D242FAD218DEDDE3000DB48E /* iOSToolboxButton */,
+				D242FAF118DEDDE3000DB48E /* iOSToolboxButtonTests */,
+				D242FACB18DEDDE2000DB48E /* Frameworks */,
+				D242FACA18DEDDE2000DB48E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D242FACA18DEDDE2000DB48E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D242FAC918DEDDE2000DB48E /* iOSToolboxButton.app */,
+				D242FAEA18DEDDE3000DB48E /* iOSToolboxButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D242FACB18DEDDE2000DB48E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D242FACC18DEDDE3000DB48E /* Foundation.framework */,
+				D242FACE18DEDDE3000DB48E /* CoreGraphics.framework */,
+				D242FAD018DEDDE3000DB48E /* UIKit.framework */,
+				D242FAEB18DEDDE3000DB48E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D242FAD218DEDDE3000DB48E /* iOSToolboxButton */ = {
+			isa = PBXGroup;
+			children = (
+				D242FADB18DEDDE3000DB48E /* AppDelegate.h */,
+				D242FADC18DEDDE3000DB48E /* AppDelegate.m */,
+				D242FADE18DEDDE3000DB48E /* Main.storyboard */,
+				D242FAE118DEDDE3000DB48E /* ViewController.h */,
+				D242FAE218DEDDE3000DB48E /* ViewController.m */,
+				D242FAE418DEDDE3000DB48E /* Images.xcassets */,
+				D242FAD318DEDDE3000DB48E /* Supporting Files */,
+			);
+			path = iOSToolboxButton;
+			sourceTree = "<group>";
+		};
+		D242FAD318DEDDE3000DB48E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D242FAD418DEDDE3000DB48E /* iOSToolboxButton-Info.plist */,
+				D242FAD518DEDDE3000DB48E /* InfoPlist.strings */,
+				D242FAD818DEDDE3000DB48E /* main.m */,
+				D242FADA18DEDDE3000DB48E /* iOSToolboxButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D242FAF118DEDDE3000DB48E /* iOSToolboxButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D242FAF718DEDDE3000DB48E /* iOSToolboxButtonTests.m */,
+				D242FAF218DEDDE3000DB48E /* Supporting Files */,
+			);
+			path = iOSToolboxButtonTests;
+			sourceTree = "<group>";
+		};
+		D242FAF218DEDDE3000DB48E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D242FAF318DEDDE3000DB48E /* iOSToolboxButtonTests-Info.plist */,
+				D242FAF418DEDDE3000DB48E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D242FAC818DEDDE2000DB48E /* iOSToolboxButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D242FAFB18DEDDE3000DB48E /* Build configuration list for PBXNativeTarget "iOSToolboxButton" */;
+			buildPhases = (
+				D242FAC518DEDDE2000DB48E /* Sources */,
+				D242FAC618DEDDE2000DB48E /* Frameworks */,
+				D242FAC718DEDDE2000DB48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSToolboxButton;
+			productName = iOSToolboxButton;
+			productReference = D242FAC918DEDDE2000DB48E /* iOSToolboxButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D242FAE918DEDDE3000DB48E /* iOSToolboxButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D242FAFE18DEDDE3000DB48E /* Build configuration list for PBXNativeTarget "iOSToolboxButtonTests" */;
+			buildPhases = (
+				D242FAE618DEDDE3000DB48E /* Sources */,
+				D242FAE718DEDDE3000DB48E /* Frameworks */,
+				D242FAE818DEDDE3000DB48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D242FAF018DEDDE3000DB48E /* PBXTargetDependency */,
+			);
+			name = iOSToolboxButtonTests;
+			productName = iOSToolboxButtonTests;
+			productReference = D242FAEA18DEDDE3000DB48E /* iOSToolboxButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D242FAC118DEDDE2000DB48E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "iOS Toolbox";
+				TargetAttributes = {
+					D242FAE918DEDDE3000DB48E = {
+						TestTargetID = D242FAC818DEDDE2000DB48E;
+					};
+				};
+			};
+			buildConfigurationList = D242FAC418DEDDE2000DB48E /* Build configuration list for PBXProject "iOSToolboxButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D242FAC018DEDDE2000DB48E;
+			productRefGroup = D242FACA18DEDDE2000DB48E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D242FAC818DEDDE2000DB48E /* iOSToolboxButton */,
+				D242FAE918DEDDE3000DB48E /* iOSToolboxButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D242FAC718DEDDE2000DB48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242FAE518DEDDE3000DB48E /* Images.xcassets in Resources */,
+				D242FAD718DEDDE3000DB48E /* InfoPlist.strings in Resources */,
+				D242FAE018DEDDE3000DB48E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242FAE818DEDDE3000DB48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242FAF618DEDDE3000DB48E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D242FAC518DEDDE2000DB48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242FAE318DEDDE3000DB48E /* ViewController.m in Sources */,
+				D242FADD18DEDDE3000DB48E /* AppDelegate.m in Sources */,
+				D242FAD918DEDDE3000DB48E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242FAE618DEDDE3000DB48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242FAF818DEDDE3000DB48E /* iOSToolboxButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D242FAF018DEDDE3000DB48E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D242FAC818DEDDE2000DB48E /* iOSToolboxButton */;
+			targetProxy = D242FAEF18DEDDE3000DB48E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D242FAD518DEDDE3000DB48E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D242FAD618DEDDE3000DB48E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D242FADE18DEDDE3000DB48E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D242FADF18DEDDE3000DB48E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D242FAF418DEDDE3000DB48E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D242FAF518DEDDE3000DB48E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D242FAF918DEDDE3000DB48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D242FAFA18DEDDE3000DB48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D242FAFC18DEDDE3000DB48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSToolboxButton/iOSToolboxButton-Prefix.pch";
+				INFOPLIST_FILE = "iOSToolboxButton/iOSToolboxButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D242FAFD18DEDDE3000DB48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSToolboxButton/iOSToolboxButton-Prefix.pch";
+				INFOPLIST_FILE = "iOSToolboxButton/iOSToolboxButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D242FAFF18DEDDE3000DB48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSToolboxButton.app/iOSToolboxButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSToolboxButton/iOSToolboxButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSToolboxButtonTests/iOSToolboxButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D242FB0018DEDDE3000DB48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSToolboxButton.app/iOSToolboxButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSToolboxButton/iOSToolboxButton-Prefix.pch";
+				INFOPLIST_FILE = "iOSToolboxButtonTests/iOSToolboxButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D242FAC418DEDDE2000DB48E /* Build configuration list for PBXProject "iOSToolboxButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D242FAF918DEDDE3000DB48E /* Debug */,
+				D242FAFA18DEDDE3000DB48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D242FAFB18DEDDE3000DB48E /* Build configuration list for PBXNativeTarget "iOSToolboxButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D242FAFC18DEDDE3000DB48E /* Debug */,
+				D242FAFD18DEDDE3000DB48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D242FAFE18DEDDE3000DB48E /* Build configuration list for PBXNativeTarget "iOSToolboxButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D242FAFF18DEDDE3000DB48E /* Debug */,
+				D242FB0018DEDDE3000DB48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D242FAC118DEDDE2000DB48E /* Project object */;
+}
