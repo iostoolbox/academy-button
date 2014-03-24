@@ -21,6 +21,8 @@
 		D242FAEE18DEDDE3000DB48E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D242FAD018DEDDE3000DB48E /* UIKit.framework */; };
 		D242FAF618DEDDE3000DB48E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D242FAF418DEDDE3000DB48E /* InfoPlist.strings */; };
 		D242FAF818DEDDE3000DB48E /* iOSToolboxButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D242FAF718DEDDE3000DB48E /* iOSToolboxButtonTests.m */; };
+		D242FB0418DEDE3A000DB48E /* buyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D242FB0218DEDE3A000DB48E /* buyButton.png */; };
+		D242FB0518DEDE3A000DB48E /* buyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D242FB0318DEDE3A000DB48E /* buyButton@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D242FAF318DEDDE3000DB48E /* iOSToolboxButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSToolboxButtonTests-Info.plist"; sourceTree = "<group>"; };
 		D242FAF518DEDDE3000DB48E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D242FAF718DEDDE3000DB48E /* iOSToolboxButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSToolboxButtonTests.m; sourceTree = "<group>"; };
+		D242FB0218DEDE3A000DB48E /* buyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buyButton.png; sourceTree = "<group>"; };
+		D242FB0318DEDE3A000DB48E /* buyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buyButton@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		D242FAD218DEDDE3000DB48E /* iOSToolboxButton */ = {
 			isa = PBXGroup;
 			children = (
+				D242FB0118DEDE3A000DB48E /* Images */,
 				D242FADB18DEDDE3000DB48E /* AppDelegate.h */,
 				D242FADC18DEDDE3000DB48E /* AppDelegate.m */,
 				D242FADE18DEDDE3000DB48E /* Main.storyboard */,
@@ -150,6 +155,15 @@
 				D242FAF418DEDDE3000DB48E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D242FB0118DEDE3A000DB48E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D242FB0218DEDE3A000DB48E /* buyButton.png */,
+				D242FB0318DEDE3A000DB48E /* buyButton@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +242,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D242FB0418DEDE3A000DB48E /* buyButton.png in Resources */,
 				D242FAE518DEDDE3000DB48E /* Images.xcassets in Resources */,
+				D242FB0518DEDE3A000DB48E /* buyButton@2x.png in Resources */,
 				D242FAD718DEDDE3000DB48E /* InfoPlist.strings in Resources */,
 				D242FAE018DEDDE3000DB48E /* Main.storyboard in Resources */,
 			);
